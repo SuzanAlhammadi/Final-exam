@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تسجيل الدخول - الحرف اليدوية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,14 +19,12 @@
     </nav>
 
     <section>
-        <div style="max-width: 400px; margin: 0 auto;">
+        <div class="login-container">
             <h1>تسجيل الدخول 🔐</h1>
-            <form style="display: flex; flex-direction: column; gap: 1rem;">
-                <input type="text" placeholder="اسم المستخدم" style="padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
-                <input type="password" placeholder="كلمة المرور" style="padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
-                <button type="submit" style="padding: 1rem; background: #a87c5b; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1.1rem;">
-                    دخول
-                </button>
+            <form>
+                <input type="text" placeholder="اسم المستخدم" required>
+                <input type="password" placeholder="كلمة المرور" required>
+                <button type="submit">دخول</button>
             </form>
         </div>
     </section>
